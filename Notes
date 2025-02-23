@@ -1,5 +1,7 @@
 1. Fault compartment:
-  - Cases lead to fault?
+  - Cases lead to fault:
+    + Not close
+    + 
   - Reset: Password, keyUSB
 
 2. Add buzzer
@@ -7,4 +9,17 @@
 
 3. Log the onlne/ auth/ ... status
 
-4. Flashing backlight not fixed.
+4. Flashing backlight not work.
+  - System busy in whle loop wait for response => add backlight control inside while loop
+  - Add timeout for While?
+5. 
+
+6. Security:
+  - 
+  - admin password in DB
+
+
+7. OTA
+  - Signed FW?
+  - OTA server?
+  - or save FW in the DB?
